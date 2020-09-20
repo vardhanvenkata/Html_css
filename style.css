@@ -1,0 +1,185 @@
+*{
+    margin:auto 0 auto;
+    text-align: left;
+}
+
+body{
+    margin: 0;
+    padding:0;
+    text-align: left;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    background-color:#bbc3d4;
+}
+
+a{
+    text-decoration: none;
+}
+
+table, tr, td, th{
+    margin:0;
+}
+
+table{
+    padding:10px 0;
+}
+
+th{
+    text-align: center;
+}
+
+td{
+    padding: 5px 20px;
+}
+
+h2{
+    padding-bottom: 10px;
+}
+
+h3{
+    font-size: 16px;
+    font-weight: bold;
+    padding:10px 0;
+    color: #054bdc;
+}
+
+h4{
+    font-size: 15px;
+    font-weight: 700;
+    padding: 7px;
+    color: #054bdc;
+}
+
+p{
+    margin: 10px 0;
+}
+
+label{
+    display: inline-block;
+    width:150px;
+}
+
+#container{
+    width:960px;
+    overflow:auto;
+    margin-left: 80px;
+}
+
+header{
+    width:960px;
+    height:85px;
+}
+
+header h1{
+    float: left;
+    color: #ffffff;
+    font-size: 40px;
+    padding: 20px 0 0 20px;
+}
+
+header h2{
+    float: right;
+    color: darkblue;
+    padding:40px 20px 0 0;
+}
+
+.spanclass{
+    color: #032353;
+}
+
+.whitetext{
+    color: white;
+}
+
+nav#menu{
+    display:block;
+    float: left;
+    width: 960px;
+    height: 54px;
+}
+
+nav#menu ul{
+    list-style: none;
+    padding:0;
+    margin-left: auto;
+    padding-top: 16px;
+    width: 960px;
+}
+
+nav#menu li{
+    list-style: none;
+    padding: 0;
+    display: inline;
+}
+
+nav#menu li a, nav#menu li a:visited{
+    float: left;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 0 13px 0 13px;
+}
+
+aside{
+    color: white;
+}
+
+nav#leftmenu{
+    margin-top:  15px;
+    width:190px;
+    float:left;
+    background-color: rgb(22, 214, 228);
+    border-radius: 10px;
+    padding: 15px 20px 10px 10px;
+}
+
+nav#leftmenu ul{
+    list-style: none;
+    padding:0;
+}
+
+nav#leftmenu li{
+    list-style: none;
+    padding: 15px 0 8px 0;
+    border-bottom: 1px dashed white;
+}
+
+nav#leftmenu a, nav#leftmenu a:visited{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+nav#leftmenu h3{
+    color:white;
+    padding: 0;
+    padding-bottom: 7px;
+    border-bottom: #ffffff solid 2px;
+    font-size: 16px;
+}
+
+footer{
+    width: 100%;
+    background-color:black;
+    color:white;
+    height: 30px;
+    text-align: center;
+    margin-top:  20px;
+    padding-top: 15px;
+}
+
+section{
+    display: block;
+    width: 680px;
+    margin-top: 15px;
+    float:left;
+    background-color: white;
+    border-radius: 10px;
+    border: solid 5px rgb(223, 61, 61) ;
+    padding:15px;
+    margin-left: 15px;
+}
